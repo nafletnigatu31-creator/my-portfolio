@@ -1,0 +1,23 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: linear-gradient(1deg, pink, #1d4ed8);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.project-links a {
+  color: #2563eb;
+  text-decoration: none;
+}
